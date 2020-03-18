@@ -1,14 +1,4 @@
-/* @media (min-width: 1195px) and (max-width: 1295px) {
-	.txt-btn p {
-		margin-left: 43%;
-	}
-	.txt-btn img {
-		margin-top: -20px;
-	}
-	.txt-btn button {
-		margin: 20px 0 0 45%;
-	}
-} */
+/* Hello */
 @media (min-width: 991px) and (max-width: 1200px) {
 	.block-advantage-price form input {
 		width: 20%;
