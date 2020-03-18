@@ -30,11 +30,9 @@ header a {
   font-size: 18px;
 }
 .logo {
-  /* border: 1px solid red; */
   margin: 30px 0 10px 0;
 }
 .time {
-  /* border: 1px solid red; */
   margin: 20px 0 20px 0;
   color: #fff;
   line-height: 28px;
@@ -46,7 +44,6 @@ header a {
   font-size: 12px;
 }
 .phone-number {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   margin: 22px 0 22px 0;
@@ -57,7 +54,6 @@ header a {
 }
 .phone-order {
   text-align: center;
-  /* border: 1px solid red; */
   margin: 25px 0 25px 0;
   padding: 17px 0 17px 0;
   border-radius: 2px;
@@ -143,7 +139,6 @@ header a {
   font-weight: 800;
   margin-left: 20px;
 }
-
 
 .block-price {
   background: #fff url(../img/bg-price.png) no-repeat ;
@@ -236,9 +231,6 @@ header a {
   font-size: 18px;
   font-weight: 800;
 }
-
-
-
 
 .block-advantage {
   background: #08243e;

@@ -429,7 +429,8 @@
         width: 80%;
     }
     .block-price {
-        background: #fff;
+		background: #fff;
+		max-height: 230px;
     }
     .form-price {
         margin: 0;
@@ -502,7 +503,6 @@
 		margin: 0 20px 0 20px;
 	}
 	.advantage-1 .advantage-1-img {
-		margin-left: 14%;
     	text-align: center;
 	}
 	.block-advantage-details p {
@@ -534,14 +534,16 @@
 		padding-bottom: 40px;
 	}
 	.footer {
-		display: grid;
-		grid-template-columns: 2fr auto 2fr;
+		display: flex;
+		flex-direction: column;
+		/* display: grid;
+		grid-template-columns: 2fr auto 2fr; */
 		padding: 30px 0 0 0;
 	}
 	.footer .logo {
 		order: 1;
 		text-align: center;
-		margin-left: auto;
+		
 	}
 	.footer .empty {
 		order: 2;
@@ -549,7 +551,6 @@
 	.footer .contacts {
 		order: 3;
 		text-align: center;
-		margin-right: auto;
 	}
 	.footer .empty2 {
 		order: 4;
