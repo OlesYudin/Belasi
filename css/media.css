@@ -292,7 +292,6 @@
 		font-size: 32px;
 	}
 	.advantage-1 .advantage-1-img {
-		margin-left: 23%;
     	text-align: center;
 	}
 	.block-advantage-details {
@@ -419,12 +418,12 @@
     }
     .block-price {
 		background: #fff;
-		max-height: 230px;
     }
     .form-price {
         margin: 0;
-        width: 100%;
-    }
+		width: 100%;
+	}
+	
     .form-price h3 {
         margin: 170px 0 40px 0;
         text-align: center;
@@ -432,15 +431,21 @@
     }
     .form {
         grid-template-columns: 1fr;
-        margin: 0;
-    }
-	.form-price .email,
-	.form-price .phone {
-        grid-template-columns: 3fr 1fr;
-        margin: 0 10% 0 10%;
-    }
+		margin: 0;
+	}
+	.email, .phone {
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+		width: 300px;
+	}
+	.email img, .phone img {
+		margin: 0 0 0 50%;
+		transform: translateX(-50%);
+	}
     .label {
-        margin: 0 0 20px 0;
+		margin: 0 0 20px 50%;
+		transform: translateX(-50%);
     }
     .price-clock {
         margin: 20px 0 30px 10%;
@@ -460,7 +465,8 @@
 		padding: 0;
 	}
 	.block-advantage-price form input::placeholder {
-		font-size: 18px;
+		font-size: 14px;
+		padding: 0 5px;
 		text-align: center;
 	}
 	.block-advantage-price .advantage-info {
@@ -486,13 +492,14 @@
 	}
 	.advantage-details-info {
 		flex-direction: column;
+		align-items: center;
+	}
+	.advantage-1 .advantage-1-img {
+		text-align: center;
 	}
 	.advantage-info h3 {
 		padding: 30px 0 30px 0;
 		margin: 0 20px 0 20px;
-	}
-	.advantage-1 .advantage-1-img {
-    	text-align: center;
 	}
 	.block-advantage-details p {
 		margin: 10px 0 0px 0;
@@ -525,8 +532,6 @@
 	.footer {
 		display: flex;
 		flex-direction: column;
-		/* display: grid;
-		grid-template-columns: 2fr auto 2fr; */
 		padding: 30px 0 0 0;
 	}
 	.footer .logo {
