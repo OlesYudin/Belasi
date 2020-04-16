@@ -199,6 +199,7 @@
 	.block-advantage-price form input {
 		width: 50%;
 		margin: 0 25% 15px 25%;
+		padding: 0 0 0 10px;
 	}
 	.block-advantage-price input[type="text"], .block-advantage-price input[type="tel"] {
 		padding: 0;
